@@ -33,7 +33,7 @@ Beginner with basic Python knowledge (loops, functions, variables).
 
 ---
 
-## 🟦 WEEK 1 — Python & Math Foundations
+## 🟦 WEEK 1 Python & Math Foundations
 
 ### Day 1
 - Python basics revision
@@ -65,7 +65,7 @@ Beginner with basic Python knowledge (loops, functions, variables).
 
 ---
 
-## 🟦 WEEK 2 — Machine Learning & Neural Networks
+## 🟦 WEEK 2 Machine Learning & Neural Networks
 
 ### Day 8
 - ML fundamentals
@@ -95,7 +95,7 @@ Beginner with basic Python knowledge (loops, functions, variables).
 
 ---
 
-## 🟦 WEEK 3 — Deep Learning & Transformers
+## 🟦 WEEK 3 Deep Learning & Transformers
 
 ### Day 15
 - Word embeddings
@@ -126,7 +126,7 @@ Beginner with basic Python knowledge (loops, functions, variables).
 
 ---
 
-## 🟦 WEEK 4 — Training, Scaling & Reality
+## 🟦 WEEK 4 Training, Scaling & Reality
 
 ### Day 22
 - Training loops
