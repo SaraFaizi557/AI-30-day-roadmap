@@ -192,7 +192,7 @@ Choose one:
 
 ---
 
-**Start Date:** 30/12/2025 
-**End Date:** 28/1/2026 
+**Start Date:** ________
+**End Date:** ________
 
 Let’s build real intelligence step by step.
