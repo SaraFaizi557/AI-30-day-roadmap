@@ -1,4 +1,4 @@
-# 30-Day AI Engineer Roadmap (From Python Basics → Mini-GPT)
+# AI Engineer Roadmap (From Python Basics → Mini-GPT)
 
 **Goal:**  
 Understand how ChatGPT-like models work from first principles and build a **tiny GPT model** in 30 days.
@@ -194,5 +194,3 @@ Choose one:
 
 **Start Date:** ________
 **End Date:** ________
-
-Let’s build real intelligence step by step.
