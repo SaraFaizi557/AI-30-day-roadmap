@@ -1,7 +1,7 @@
 # AI Engineer Roadmap (From Python Basics → Mini-GPT)
 
 **Goal:**  
-Understand how ChatGPT-like models work from first principles and build a **tiny GPT model** in 30 days.
+Understand how ChatGPT-like models work from first principles.
 
 **Target Audience:**  
 Beginner with basic Python knowledge (loops, functions, variables).
