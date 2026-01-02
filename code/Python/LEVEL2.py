@@ -3,62 +3,62 @@
 
 # 1. Find max and min in a list (without built-ins).
 
-# nums = [10, 25, 3, 99, 45]
+nums = [10, 25, 3, 99, 45]
 
-# max_val = nums[0]
-# min_val = nums[0]
+max_val = nums[0]
+min_val = nums[0]
 
-# for num in nums:
-#     if num > max_val:
-#         max_val = num
-#     elif num < min_val:
-#         min_val = num
+for num in nums:
+    if num > max_val:
+        max_val = num
+    elif num < min_val:
+        min_val = num
 
-# print("Max_Value: ", max_val)
-# print("Min_Value: ", min_val)
+print("Max_Value: ", max_val)
+print("Min_Value: ", min_val)
 
 # 2. Remove duplicates from a list.
 
-# nums = [23, 12, 4, 12, 34, 4, 23, 54]
-# unique = list(set(nums))
-# print(unique)
+nums = [23, 12, 4, 12, 34, 4, 23, 54]
+unique = list(set(nums))
+print(unique)
 
 # 3. Sort a list manually (bubble sort).
 
-# def bubble_sort(arr):
-#     n = len(arr)
+def bubble_sort(arr):
+    n = len(arr)
 
-#     for i in range(n):
-#         swapped = False
+    for i in range(n):
+        swapped = False
 
-#         for j in range(0, n - i - 1):
-#             if arr[j] > arr[j + 1]:
-#                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
-#                 swapped = True
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+                swapped = True
 
-#         if not swapped:
-#             break
+        if not swapped:
+            break
 
-#     return arr
+    return arr
 
-# arr = [4, 6, 2, 1, 3, 7, 9, 8 ]    
-# print(bubble_sort(arr))
+arr = [4, 6, 2, 1, 3, 7, 9, 8 ]    
+print(bubble_sort(arr))
 
 # 4. Merge two lists.
 
-# a = [1, 2, 3]
-# b = [4, 5, 6]
+a = [1, 2, 3]
+b = [4, 5, 6]
 
-# merged = a + b
-# print(merged)
+merged = a + b
+print(merged)
 
 # 5. Find common elements in two lists.
 
-# a = [1, 2, 3, 4, 5]
-# b = [3, 4, 5, 6, 7]
+a = [1, 2, 3, 4, 5]
+b = [3, 4, 5, 6, 7]
 
-# common = list(set(a) & set(b))
-# print(common)
+common = list(set(a) & set(b))
+print(common)
 
 # 6. Count frequency of elements using a dictionary.
 
@@ -73,3 +73,49 @@ for x in nums:
         freq[x] = 1
 
 print(freq)
+
+# 7. Create a dictionary from two lists.
+
+keys = ["id", "name", "email"]
+values = [101, "Mohid", "mohid@example.com"]
+
+data = dict(zip(keys, values))
+print(data)
+
+# 8. Swap keys and values in a dictionary.
+
+data = {
+    "a": 1,
+    "b": 2,
+    "c": 3
+}
+
+swapped = {v: k for k, v in data.items()}
+print(swapped)
+
+# 9. Find the second largest number.
+
+numbers = [10, 45, 3, 99, 46, 35, 21]
+
+unique_numbers = list(set(numbers))
+unique_numbers.sort()
+
+second_largest = unique_numbers[-2]
+print(second_largest)
+
+# 10. Group numbers as even and odd using dict.
+
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+result = {
+    "even": [],
+    "odd": []
+}
+
+for n in nums:
+    if n % 2 == 0:
+        result["even"].append(n)
+    else:
+        result["odd"].append(n)
+
+print(result)
